@@ -1,5 +1,3 @@
-# RoP
-
 # How to run
 
 ### RoP
