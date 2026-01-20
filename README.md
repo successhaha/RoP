@@ -1,4 +1,9 @@
 
+To install requirements:
+
+           pip install -r requirements.txt
+
+
 # How to run
 
 ### RoP
@@ -10,5 +15,6 @@ python3 main_label_noise.py --gpu 0 --model 'PreActResNet18' --robust-learner 'S
           --fraction $fraction --selection RoP --save-log True \
           --metric cossim --uncertainty LeastConfidence --tau 0.975 --eta 1 --balance True
 ```
+
 
 
